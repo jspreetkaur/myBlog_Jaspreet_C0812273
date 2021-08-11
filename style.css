@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, #eba613, #ffbe81);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*header========================================================================================================================*/
+
+.main-page-header {
+    position: fixed;
+    color: white;
+    padding: 10px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(to right, #eba613, #ffbe81);
+}
+
+.main-page-header h1 {
+    font-family: Snell Roundhand, cursive;
+    margin-bottom: 5px;
+}
+
+.main-page-header p {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/*navbar========================================================================================================================*/
+
+.main-page-nav {
+    top: 125px;
+    position: fixed;
+    width: 100%;
+}
+
+.main-page-nav ul {
+    background-image: url("images/nav_back.jpg");
+    padding: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.main-page-nav ul li {
+    color: white;
+    display: inline;
+    list-style: none;
+    font-size: 1.3em;
+    padding: 16px;
+    border-right: 1px solid white;
+
+}
+
+.main-page-nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*main========================================================================================================================*/
+
+a {
+    color: black;
+}
+
+.main-page-main {
+    display: flex;
+    margin-top: 170px;
+    background: white;
+}
+
+.main-page-section {
+    background-color: white;
+    padding: 29px;
+    width: 70%;
+    display: inline-block;
+}
+
+.main-page-section div h2 {
+    color: rgb(255, 217, 0);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.1em;
+}
+
+.main-page-section div img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.main-page-main {
+    margin-bottom: 30px;
+}
+
+.main-page-section div p {
+    font-size: 1.2em;
+    font-family: Garamond, serif;
+}
+
+/*sidebar========================================================================================================================*/
+
+.main-page-aside {
+    width: 25%;
+    position: fixed;
+    right: 0px;
+}
+
+.main-page-aside ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.main-page-aside ul li a span {
+    margin-left: 20px;
+}
+
+.main-page-aside ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/*footer========================================================================================================================*/
+
+.main-page-footer {
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right, #eba613, #ffbe81);
+}
+
+.footer-para {
+    color: white;
+    display: inline-block;
+}
+
+.send {
+    float: right;
+    display: inline-block;
+}
+
+.send input {
+    padding: 9px 19px;
+    border-radius: 2px;
+}
+
+.send button {
+    border: none;
+    background-color: rgb(71, 234, 255);
+    margin-right: 20px;
+    padding: 9px 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: white;
+}
